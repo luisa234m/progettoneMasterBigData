@@ -1,0 +1,80 @@
+AHO: missing country file
+ALG: missing country file
+BAH: missing country file
+BAR: missing country file
+BER: missing country file
+BOT: missing country file
+BUL: missing country file
+BUR: missing country file
+CHI: missing country file
+CRC: missing country file
+CRO: missing country file
+DEN: missing country file
+EUN: missing country file
+FIJ: missing country file
+FRG: missing country file
+GDR: missing country file
+GER: missing country file
+GRE: missing country file
+GRN: missing country file
+GUA: missing country file
+INA: missing country file
+IOA: missing country file
+IRI: missing country file
+ISV: missing country file
+KOS: missing country file
+KSA: missing country file
+KUW: missing country file
+LAT: missing country file
+MAS: missing country file
+MGL: missing country file
+MRI: missing country file
+NED: missing country file
+NGR: missing country file
+NIG: missing country file
+PAR: missing country file
+PHI: missing country file
+POR: missing country file
+PUR: missing country file
+ROC: missing country file
+RSA: missing country file
+SAM: missing country file
+SCG: missing country file
+SLO: missing country file
+SRI: missing country file
+SUD: missing country file
+SUI: missing country file
+TAN: missing country file
+TCH: missing country file
+TGA: missing country file
+TOG: missing country file
+TPE: missing country file
+UAE: missing country file
+URU: missing country file
+VIE: missing country file
+YUG: missing country file
+ZAM: missing country file
+ZIM: missing country file
+NOR - Olympic year 2022: missing years 2020, 2021
+CHN - Olympic year 2022: missing years 2020, 2021
+USA - Olympic year 2022: missing years 2020, 2021
+SWE - Olympic year 2022: missing years 2020, 2021
+AUT - Olympic year 2022: missing years 2020, 2021
+FRA - Olympic year 2022: missing years 2020, 2021
+CAN - Olympic year 2022: missing years 2020, 2021
+JPN - Olympic year 2022: missing years 2020, 2021
+ITA - Olympic year 2022: missing years 2020, 2021
+KOR - Olympic year 2022: missing years 2020, 2021
+FIN - Olympic year 2022: missing years 2020, 2021
+NZL - Olympic year 2022: missing years 2020, 2021
+AUS - Olympic year 2022: missing years 2020, 2021
+GBR - Olympic year 2022: missing years 2020, 2021
+HUN - Olympic year 2022: missing years 2020, 2021
+BEL - Olympic year 2022: missing years 2020, 2021
+CZE - Olympic year 2022: missing years 2020, 2021
+SVK - Olympic year 2022: missing years 2020, 2021
+BLR - Olympic year 2022: missing years 2020, 2021
+ESP - Olympic year 2022: missing years 2020, 2021
+UKR - Olympic year 2022: missing years 2020, 2021
+EST - Olympic year 2022: missing years 2020, 2021
+POL - Olympic year 2022: missing years 2020, 2021

@@ -1,0 +1,26 @@
+﻿Categoria;Codice_indicatore;Nome_indicatore;breve_descrizione;Database;Dbid
+Economia;NY.GDP.MKTP.CD;GDP (current US$);Dimensione complessiva dell’economia del Paese;World Bank – World Development Indicators;2
+Economia;NY.GDP.PCAP.CD;GDP per capita (current US$);Ricchezza media per abitante;World Bank – World Development Indicators;2
+Economia;NY.GDP.MKTP.KD.ZG;GDP growth (annual %);Crescita economica annuale;World Bank – World Development Indicators;2
+Economia;NE.TRD.GNFS.ZS;Trade (% of GDP);Peso degli scambi commerciali sull’economia;World Bank – World Development Indicators;2
+Economia;FP.CPI.TOTL.ZG;Inflation, consumer prices (annual %);Tasso di inflazione annuale;World Bank – World Development Indicators;2
+Economia;BX.KLT.DINV.WD.GD.ZS;Foreign direct investment, net inflows (% of GDP);Investimenti esteri in rapporto al PIL;World Bank – World Development Indicators;2
+Economia;NV.IND.TOTL.ZS;Industry, value added (% of GDP);Peso del settore industriale nell’economia;World Bank – World Development Indicators;2
+Economia;NV.SRV.TOTL.ZS;Services, value added (% of GDP);Peso del settore dei servizi nell’economia;World Bank – World Development Indicators;2
+Economia;NY.GNP.PCAP.CD;GNI per capita, Atlas method (current US$);Reddito nazionale lordo medio per abitante;World Bank – World Development Indicators;2
+Demografia e struttura sociale;SP.POP.TOTL;Population, total;Popolazione totale del Paese;World Bank – World Development Indicators;2
+Demografia e struttura sociale;SP.POP.GROW;Population growth (annual %);Tasso di crescita della popolazione;World Bank – World Development Indicators;2
+Demografia e struttura sociale;EN.POP.DNST;Population density (people per sq. km of land area);Densità abitativa del Paese;World Bank – World Development Indicators;2
+Demografia e struttura sociale;SP.URB.TOTL;Urban population;Popolazione residente in aree urbane;World Bank – World Development Indicators;2
+Demografia e struttura sociale;SP.URB.TOTL.IN.ZS;Urban population (% of total population);Livello di urbanizzazione;World Bank – World Development Indicators;2
+Demografia e struttura sociale;SL.TLF.TOTL.IN;Labor force, total;Dimensione complessiva della forza lavoro;World Bank – World Development Indicators;2
+Salute e sviluppo umano;SP.DYN.LE00.IN;Life expectancy at birth, total (years);Aspettativa di vita alla nascita;World Bank – World Development Indicators;2
+Salute e sviluppo umano;SH.XPD.CHEX.GD.ZS;Current health expenditure (% of GDP);Quota di PIL destinata alla sanità;World Bank – World Development Indicators;2
+Salute e sviluppo umano;SH.MED.PHYS.ZS;Physicians (per 1,000 people);Disponibilità di medici rispetto alla popolazione;World Bank – World Development Indicators;2
+Salute e sviluppo umano;SP.DYN.IMRT.IN;Mortality rate, infant (per 1,000 live births);Tasso di mortalità infantile;World Bank – World Development Indicators;2
+Salute e sviluppo umano;SH.DYN.NMRT;Mortality rate, neonatal (per 1,000 live births);Tasso di mortalità neonatale;World Bank – World Development Indicators;2
+Salute e sviluppo umano;EG.ELC.ACCS.ZS;Access to electricity (% of population);Accesso all’elettricità nella popolazione;World Bank – World Development Indicators;2
+Istruzione e innovazione;SE.XPD.TOTL.GD.ZS;Government expenditure on education, total (% of GDP);Spesa pubblica per istruzione in rapporto al PIL;World Bank – World Development Indicators;2
+Istruzione e innovazione;SE.TER.ENRR;School enrollment, tertiary (% gross);Iscrizione all’istruzione terziaria;World Bank – World Development Indicators;2
+Istruzione e innovazione;SE.SEC.ENRR;School enrollment, secondary (% gross);Iscrizione all’istruzione secondaria;World Bank – World Development Indicators;2
+Istruzione e innovazione;GB.XPD.RSDV.GD.ZS;Research and development expenditure (% of GDP);Spesa in ricerca e sviluppo in rapporto al PIL;World Bank – World Development Indicators;2

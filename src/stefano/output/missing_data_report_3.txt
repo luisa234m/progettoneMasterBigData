@@ -1,0 +1,259 @@
+AHO: missing country file in data/clean
+ALG: missing country file in data/clean
+BAH: missing country file in data/clean
+BAR: missing country file in data/clean
+BER: missing country file in data/clean
+BOT: missing country file in data/clean
+BUL: missing country file in data/clean
+BUR: missing country file in data/clean
+CHI: missing country file in data/clean
+CRC: missing country file in data/clean
+CRO: missing country file in data/clean
+DEN: missing country file in data/clean
+EUN: missing country file in data/clean
+FIJ: missing country file in data/clean
+FRG: missing country file in data/clean
+GDR: missing country file in data/clean
+GRE: missing country file in data/clean
+GRN: missing country file in data/clean
+GUA: missing country file in data/clean
+INA: missing country file in data/clean
+IOA: missing country file in data/clean
+IRI: missing country file in data/clean
+ISV: missing country file in data/clean
+KOS: missing country file in data/clean
+KSA: missing country file in data/clean
+KUW: missing country file in data/clean
+LAT: missing country file in data/clean
+MAS: missing country file in data/clean
+MGL: missing country file in data/clean
+MRI: missing country file in data/clean
+NED: missing country file in data/clean
+NGR: missing country file in data/clean
+NIG: missing country file in data/clean
+PAR: missing country file in data/clean
+PHI: missing country file in data/clean
+POR: missing country file in data/clean
+PUR: missing country file in data/clean
+ROC: missing country file in data/clean
+RSA: missing country file in data/clean
+SAM: missing country file in data/clean
+SCG: missing country file in data/clean
+SLO: missing country file in data/clean
+SRI: missing country file in data/clean
+SUD: missing country file in data/clean
+SUI: missing country file in data/clean
+TAN: missing country file in data/clean
+TCH: missing country file in data/clean
+TGA: missing country file in data/clean
+TOG: missing country file in data/clean
+TPE: missing country file in data/clean
+UAE: missing country file in data/clean
+VIE: missing country file in data/clean
+YUG: missing country file in data/clean
+ABW - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AFG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AGO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ALB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AND - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ARE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ARG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ARM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ASM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ATG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AUS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AUT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+AZE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BDI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BEL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BEN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BFA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BGD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BGR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BHR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BHS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BIH - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BLR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BLZ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BMU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BOL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BRA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BRB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BRN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BTN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+BWA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CAF - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CAN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CHE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CHL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CHN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CIV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CMR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+COD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+COG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+COL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+COM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CPV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CRI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CUB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CYM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CYP - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+CZE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+DJI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+DMA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+DNK - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+DOM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+DZA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ECU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+EGY - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ERI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ESP - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+EST - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ETH - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+FIN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+FJI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+FRA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+FSM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GAB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GBR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GEO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GER - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GHA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GIN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GMB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GNB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GNQ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GRC - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GRD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GRL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GTM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GUM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+GUY - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+HKG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+HND - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+HRV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+HTI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+HUN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+IDN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+IND - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+IRL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+IRN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+IRQ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ISL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ISR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ITA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+JAM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+JOR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+JPN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KAZ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KEN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KGZ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KHM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KIR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KNA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KOR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+KWT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LAO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LBN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LBR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LBY - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LCA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LIE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LKA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LSO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LTU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LUX - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+LVA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MAC - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MAR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MCO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MDA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MDG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MDV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MEX - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MHL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MKD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MLI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MLT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MMR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MNE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MNG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MOZ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MRT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MUS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MWI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+MYS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NAM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NCL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NER - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NGA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NIC - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NLD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NOR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NPL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NRU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+NZL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+OMN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PAK - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PAN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PER - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PHL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PLW - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PNG - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+POL - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PRI - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PRK - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PRT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PRY - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PSE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+PYF - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+QAT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ROU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+RUS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+RWA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SAU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SDN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SEN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SGP - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SLB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SLE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SLV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SMR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SOM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SRB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SSD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+STP - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SUR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SVK - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SVN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SWE - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SWZ - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SYC - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+SYR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TCD - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TGO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+THA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TJK - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TKM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TLS - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TON - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TTO - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TUN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TUR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TUV - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+TZA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+UGA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+UKR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+URU - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+USA - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+UZB - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+VCT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+VEN - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+VIR - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+VNM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+VUT - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+WSM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+YEM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ZAF - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ZAM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
+ZIM - year=2022, edition=2022 Winter Olympics: missing previous years 2020, 2021
