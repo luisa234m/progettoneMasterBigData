@@ -1,0 +1,458 @@
+sport,event,is_team_event,n_nations_mean,n_nations_max,n_athletes_mean,hhi_gold_mean,n_nations_with_gold,n_editions
+3x3 Basketball,"3x3 Basketball, Men",True,8.0,8,8.0,1.0,1.0,1
+3x3 Basketball,"3x3 Basketball, Women",True,8.0,8,8.0,1.0,1.0,1
+Archery,"Individual, Men",False,32.76923076923077,40,61.46153846153846,1.0,1.0,13
+Archery,"Individual, Women",False,29.615384615384617,40,54.92307692307692,1.0,1.0,13
+Archery,"Team, Men",True,14.666666666666666,22,14.666666666666666,1.0,1.0,9
+Archery,"Team, Mixed",True,29.0,29,29.0,1.0,1.0,1
+Archery,"Team, Women",True,13.333333333333334,17,13.333333333333334,1.0,1.0,9
+Artistic Gymnastics,"Balance Beam, Women",False,28.466666666666665,47,86.73333333333333,1.0,1.0,15
+Artistic Gymnastics,"Floor Exercise, Men",False,26.6,34,87.8,1.0,1.0,15
+Artistic Gymnastics,"Floor Exercise, Women",False,28.2,46,86.2,0.9333333333333333,1.1333333333333333,15
+Artistic Gymnastics,"Horizontal Bar, Men",False,26.666666666666668,35,87.86666666666666,0.9666666666666667,1.0666666666666667,15
+Artistic Gymnastics,"Horse Vault, Men",False,22.4,31,73.53333333333333,1.0,1.0,15
+Artistic Gymnastics,"Horse Vault, Women",False,21.266666666666666,31,68.86666666666666,0.9666666666666667,1.0666666666666667,15
+Artistic Gymnastics,"Individual All-Around, Men",False,26.8,35,88.6,1.0,1.0,15
+Artistic Gymnastics,"Individual All-Around, Women",False,28.0,43,86.73333333333333,1.0,1.0,15
+Artistic Gymnastics,"Parallel Bars, Men",False,26.733333333333334,33,88.06666666666666,1.0,1.0,15
+Artistic Gymnastics,"Pommelled Horse, Men",False,26.866666666666667,36,87.8,0.888888888888889,1.2666666666666666,15
+Artistic Gymnastics,"Rings, Men",False,26.266666666666666,34,87.0,0.9333333333333333,1.1333333333333333,15
+Artistic Gymnastics,"Team All-Around, Men",True,12.533333333333333,18,12.533333333333333,1.0,1.0,15
+Artistic Gymnastics,"Team All-Around, Women",True,12.0,19,12.0,1.0,1.0,15
+Artistic Gymnastics,"Uneven Bars, Women",False,28.2,44,86.53333333333333,0.9666666666666667,1.0666666666666667,15
+Artistic Swimming,"Duet, Women",True,21.444444444444443,24,21.444444444444443,1.0,1.0,9
+Artistic Swimming,"Solo, Women",False,20.333333333333332,22,49.666666666666664,0.8333333333333334,1.3333333333333333,3
+Artistic Swimming,"Team, Women",True,6.0,8,6.0,1.0,1.0,7
+Athletics,"1,500 metres Wheelchair, Men",False,5.833333333333333,8,7.833333333333333,,0.0,6
+Athletics,"1,500 metres, Men",False,34.666666666666664,48,50.8,1.0,1.0,15
+Athletics,"1,500 metres, Women",False,22.53846153846154,33,37.23076923076923,1.0,1.0,13
+Athletics,"10 kilometres Race Walk, Women",False,23.5,26,44.0,1.0,1.0,2
+Athletics,"10,000 metres, Men",False,25.133333333333333,38,40.6,1.0,1.0,15
+Athletics,"10,000 metres, Women",False,21.77777777777778,30,35.77777777777778,1.0,1.0,9
+Athletics,"100 metres Hurdles, Women",False,24.53846153846154,35,36.46153846153846,1.0,1.0,13
+Athletics,"100 metres, Men",False,57.8,75,82.2,1.0,1.0,15
+Athletics,"100 metres, Women",False,42.46666666666667,68,59.6,1.0,0.9333333333333333,15
+Athletics,"110 metres Hurdles, Men",False,27.733333333333334,41,40.2,1.0,1.0,15
+Athletics,"20 kilometres Race Walk, Men",False,26.066666666666666,40,47.266666666666666,1.0,1.0,15
+Athletics,"20 kilometres Race Walk, Women",False,32.166666666666664,35,59.166666666666664,1.0,1.0,6
+Athletics,"200 metres, Men",False,48.333333333333336,67,66.0,1.0,1.0,15
+Athletics,"200 metres, Women",False,33.733333333333334,48,48.2,1.0,1.0,15
+Athletics,"3,000 metres Steeplechase, Men",False,24.266666666666666,29,37.6,1.0,1.0,15
+Athletics,"3,000 metres Steeplechase, Women",False,28.25,33,47.25,1.0,1.0,4
+Athletics,"3,000 metres, Women",False,22.666666666666668,24,33.333333333333336,1.0,1.0,3
+Athletics,"4 × 100 metres Relay, Men",True,23.333333333333332,40,23.333333333333332,1.0,1.0,15
+Athletics,"4 × 100 metres Relay, Women",True,15.866666666666667,25,15.866666666666667,1.0,1.0,15
+Athletics,"4 × 400 metres Relay, Men",True,21.866666666666667,34,21.866666666666667,1.0,1.0,15
+Athletics,"4 × 400 metres Relay, Mixed",True,15.0,15,15.0,1.0,1.0,1
+Athletics,"4 × 400 metres Relay, Women",True,15.0,21,15.0,1.0,1.0,13
+Athletics,"400 metres Hurdles, Men",False,28.333333333333332,45,39.86666666666667,1.0,1.0,15
+Athletics,"400 metres Hurdles, Women",False,24.5,34,34.5,1.0,1.0,10
+Athletics,"400 metres, Men",False,42.733333333333334,56,60.6,1.0,1.0,15
+Athletics,"400 metres, Women",False,30.333333333333332,44,43.666666666666664,1.0,1.0,15
+Athletics,"5,000 metres, Men",False,30.333333333333332,47,47.8,1.0,1.0,15
+Athletics,"5,000 metres, Women",False,24.0,33,39.857142857142854,1.0,1.0,7
+Athletics,"50 kilometres Race Walk, Men",False,25.214285714285715,39,49.142857142857146,1.0,1.0,14
+Athletics,"80 metres Hurdles, Women",False,21.5,23,33.0,1.0,1.0,2
+Athletics,"800 metres Wheelchair, Women",False,5.5,8,7.833333333333333,,0.0,6
+Athletics,"800 metres, Men",False,41.53333333333333,58,56.53333333333333,1.0,1.0,15
+Athletics,"800 metres, Women",False,27.0,44,37.53333333333333,1.0,1.0,15
+Athletics,"Decathlon, Men",False,20.8,28,32.46666666666667,1.0,1.0,15
+Athletics,"Discus Throw, Men",False,22.8,30,32.86666666666667,1.0,1.0,15
+Athletics,"Discus Throw, Women",False,17.266666666666666,26,27.266666666666666,1.0,1.0,15
+Athletics,"Hammer Throw, Men",False,19.4,32,30.0,1.0,1.0,15
+Athletics,"Hammer Throw, Women",False,23.666666666666668,30,37.666666666666664,1.0,1.0,6
+Athletics,"Heptathlon, Women",False,21.6,28,32.1,1.0,1.0,10
+Athletics,"High Jump, Men",False,24.6,29,36.4,0.9666666666666667,1.0666666666666667,15
+Athletics,"High Jump, Women",False,22.266666666666666,28,32.666666666666664,1.0,1.0,15
+Athletics,"Javelin Throw, Men",False,21.0,31,31.533333333333335,1.0,1.0,15
+Athletics,"Javelin Throw, Women",False,19.933333333333334,40,29.2,1.0,1.0,15
+Athletics,"Long Jump, Men",False,29.8,40,41.13333333333333,1.0,1.0,15
+Athletics,"Long Jump, Women",False,23.533333333333335,36,34.0,1.0,1.0,15
+Athletics,"Marathon, Men",False,56.666666666666664,79,100.66666666666667,1.0,1.0,15
+Athletics,"Marathon, Women",False,47.2,80,83.8,1.0,1.0,10
+Athletics,"Pentathlon, Women",False,17.2,24,25.8,1.0,1.0,5
+Athletics,"Pole Vault, Men",False,18.933333333333334,26,30.066666666666666,1.0,1.0,15
+Athletics,"Pole Vault, Women",False,22.333333333333332,25,34.833333333333336,1.0,1.0,6
+Athletics,"Shot Put, Men",False,21.533333333333335,34,30.333333333333332,1.0,1.0,15
+Athletics,"Shot Put, Women",False,15.8,28,24.0,1.0,1.0,15
+Athletics,"Triple Jump, Men",False,26.533333333333335,36,37.0,1.0,1.0,15
+Athletics,"Triple Jump, Women",False,24.0,26,33.57142857142857,1.0,1.0,7
+Badminton,"Doubles, Men",True,12.8,21,14.5,1.0,0.8,10
+Badminton,"Doubles, Mixed",True,12.777777777777779,18,14.555555555555555,1.0,0.7777777777777778,9
+Badminton,"Doubles, Women",True,14.11111111111111,20,16.11111111111111,1.0,0.8888888888888888,9
+Badminton,"Singles, Men",False,25.8,37,34.8,1.0,0.8,10
+Badminton,"Singles, Women",False,27.0,43,36.0,1.0,0.8,10
+Baseball,"Baseball, Men",True,7.111111111111111,8,7.111111111111111,1.0,0.6666666666666666,9
+Basketball,"Basketball, Men",True,12.8,16,12.8,1.0,1.0,15
+Basketball,"Basketball, Women",True,9.833333333333334,12,9.833333333333334,1.0,1.0,12
+Basque pelota,"Cesta Punta, Doubles, Men",True,4.5,5,4.5,,0.0,2
+Basque pelota,"Frontenis, Doubles, Men",True,5.0,6,5.0,,0.0,2
+Basque pelota,"Frontenis, Doubles, Women",True,4.0,4,4.0,,0.0,1
+Basque pelota,"Mano, Doubles, Men",True,4.0,5,4.0,,0.0,2
+Basque pelota,"Mano, Singles, Men",True,4.0,4,4.0,,0.0,1
+Basque pelota,"Pala Corta, Doubles, Men",True,4.0,4,4.0,,0.0,1
+Basque pelota,"Paleta Cuero, Doubles, Men",True,5.0,5,5.0,,0.0,2
+Basque pelota,"Paleta Goma, Doubles, Men",True,4.0,4,4.0,,0.0,2
+Beach Volleyball,"Beach Volleyball, Men",True,17.857142857142858,19,20.285714285714285,1.0,1.0,7
+Beach Volleyball,"Beach Volleyball, Women",True,16.142857142857142,17,18.285714285714285,1.0,1.0,7
+Bowling,"Individual, Men",False,12.0,12,12.0,,0.0,1
+Bowling,"Individual, Women",False,12.0,12,12.0,,0.0,1
+Boxing,"Bantamweight, Men",False,32.57142857142857,49,32.57142857142857,1.0,1.0,14
+Boxing,"Featherweight, Men",False,32.84615384615385,46,32.84615384615385,1.0,1.0,13
+Boxing,"Featherweight, Women",False,21.0,21,21.0,1.0,1.0,1
+Boxing,"Flyweight, Men",False,29.533333333333335,42,29.533333333333335,1.0,1.0,15
+Boxing,"Flyweight, Women",False,16.666666666666668,26,16.666666666666668,1.0,1.0,3
+Boxing,"Heavyweight, Men",False,17.2,24,17.2,1.0,1.0,15
+Boxing,"Light-Flyweight, Men",False,27.46153846153846,35,27.46153846153846,1.0,1.0,13
+Boxing,"Light-Heavyweight, Men",False,24.533333333333335,31,24.533333333333335,1.0,1.0,15
+Boxing,"Light-Middleweight, Men",False,29.4,37,29.4,1.0,1.0,10
+Boxing,"Light-Welterweight, Men",False,32.214285714285715,49,32.214285714285715,1.0,1.0,14
+Boxing,"Lightweight, Men",False,31.333333333333332,40,31.333333333333332,1.0,1.0,15
+Boxing,"Lightweight, Women",False,15.0,21,15.0,1.0,1.0,3
+Boxing,"Middleweight, Men",False,25.8,34,25.8,1.0,1.0,15
+Boxing,"Middleweight, Women",False,13.333333333333334,16,13.333333333333334,1.0,1.0,3
+Boxing,"Super-Heavyweight, Men",False,16.4,19,16.4,1.0,1.0,10
+Boxing,"Welterweight, Men",False,31.2,44,31.2,1.0,1.0,15
+Boxing,"Welterweight, Women",False,18.0,18,18.0,1.0,1.0,1
+Canoe Slalom,"Canadian Doubles, Slalom, Men",True,10.375,12,12.0,1.0,1.0,8
+Canoe Slalom,"Canadian Singles, Slalom, Men",False,15.444444444444445,19,20.555555555555557,1.0,1.0,9
+Canoe Slalom,"Canadian Singles, Slalom, Women",False,21.0,21,21.0,1.0,1.0,1
+Canoe Slalom,"Kayak Singles, Slalom, Men",False,21.11111111111111,28,28.88888888888889,1.0,1.0,9
+Canoe Slalom,"Kayak Singles, Slalom, Women",False,17.77777777777778,26,22.666666666666668,1.0,1.0,9
+Canoe Sprint,"Canadian Doubles, 1,000 metres, Men",True,13.666666666666666,17,13.666666666666666,1.0,1.0,15
+Canoe Sprint,"Canadian Doubles, 500 metres, Men",True,14.666666666666666,19,14.666666666666666,1.0,1.0,9
+Canoe Sprint,"Canadian Doubles, 500 metres, Women",True,14.0,14,14.0,1.0,1.0,1
+Canoe Sprint,"Canadian Singles, 1,000 metres, Men",False,16.133333333333333,22,17.0,1.0,1.0,15
+Canoe Sprint,"Canadian Singles, 200 metres, Men",False,25.0,25,25.0,1.0,1.0,2
+Canoe Sprint,"Canadian Singles, 200 metres, Women",False,22.0,22,32.0,1.0,1.0,1
+Canoe Sprint,"Canadian Singles, 500 metres, Men",False,16.666666666666668,22,16.666666666666668,1.0,1.0,9
+Canoe Sprint,"Kayak Doubles, 1,000 metres, Men",True,18.533333333333335,27,18.6,1.0,1.0,15
+Canoe Sprint,"Kayak Doubles, 200 metres, Men",True,13.5,14,13.5,1.0,1.0,2
+Canoe Sprint,"Kayak Doubles, 500 metres, Men",True,21.22222222222222,30,21.22222222222222,1.0,1.0,9
+Canoe Sprint,"Kayak Doubles, 500 metres, Women",True,14.4,20,14.533333333333333,1.0,1.0,15
+Canoe Sprint,"Kayak Fours, 1,000 metres, Men",True,15.142857142857142,20,15.142857142857142,1.0,1.0,14
+Canoe Sprint,"Kayak Fours, 500 metres, Men",True,11.0,11,11.0,1.0,1.0,1
+Canoe Sprint,"Kayak Fours, 500 metres, Women",True,11.9,16,11.9,1.0,1.0,10
+Canoe Sprint,"Kayak Singles, 1,000 metres, Men",False,22.466666666666665,31,22.733333333333334,1.0,1.0,15
+Canoe Sprint,"Kayak Singles, 200 metres, Men",False,19.666666666666668,22,21.666666666666668,1.0,1.0,3
+Canoe Sprint,"Kayak Singles, 200 metres, Women",False,26.666666666666668,29,30.0,1.0,1.0,3
+Canoe Sprint,"Kayak Singles, 500 metres, Men",False,24.22222222222222,31,24.22222222222222,1.0,1.0,9
+Canoe Sprint,"Kayak Singles, 500 metres, Women",False,18.666666666666668,28,19.6,1.0,1.0,15
+Cycling BMX Freestyle,"Park, Men",False,8.0,8,9.0,1.0,1.0,1
+Cycling BMX Freestyle,"Park, Women",False,8.0,8,9.0,1.0,1.0,1
+Cycling BMX Racing,"BMX, Men",False,19.25,21,30.0,1.0,1.0,4
+Cycling BMX Racing,"BMX, Women",False,13.75,17,18.0,1.0,1.0,4
+Cycling Mountain Bike,"Cross-Country, Men",False,30.571428571428573,33,47.0,1.0,1.0,7
+Cycling Mountain Bike,"Cross-Country, Women",False,22.857142857142858,29,30.857142857142858,1.0,1.0,7
+Cycling Road,"100 kilometres Team Time Trial, Men",True,29.5,35,29.5,1.0,1.0,8
+Cycling Road,"Individual Time Trial, Men",False,27.571428571428573,30,37.857142857142854,1.0,1.0,7
+Cycling Road,"Individual Time Trial, Women",False,16.571428571428573,19,24.285714285714285,1.0,1.0,7
+Cycling Road,"Road Race, Individual, Men",False,49.06666666666667,63,143.53333333333333,1.0,1.0,15
+Cycling Road,"Road Race, Individual, Women",False,29.5,40,60.4,1.0,1.0,10
+Cycling Track,"1,000 metres Time Trial, Men",False,24.818181818181817,32,25.272727272727273,1.0,1.0,11
+Cycling Track,"500 metres Time Trial, Women",False,11.5,12,14.5,1.0,1.0,2
+Cycling Track,"Individual Pursuit, 4,000 metres, Men",False,20.5,29,22.75,1.0,1.0,12
+Cycling Track,"Individual Pursuit, Women",False,12.4,17,13.2,1.0,1.0,5
+Cycling Track,"Keirin, Men",False,16.5,18,23.666666666666668,1.0,1.0,6
+Cycling Track,"Keirin, Women",False,18.0,18,24.666666666666668,1.0,1.0,3
+Cycling Track,"Madison, Men",True,16.0,18,16.0,1.0,1.0,4
+Cycling Track,"Madison, Women",True,15.0,15,15.0,1.0,1.0,1
+Cycling Track,"Omnium, Men",False,18.666666666666668,20,18.666666666666668,1.0,1.0,3
+Cycling Track,"Omnium, Women",False,19.0,21,19.0,1.0,1.0,3
+Cycling Track,"Points Race, Men",False,27.714285714285715,38,30.285714285714285,1.0,1.0,7
+Cycling Track,"Points Race, Women",False,20.25,23,20.25,1.0,1.0,4
+Cycling Track,"Sprint, Men",False,19.866666666666667,28,27.333333333333332,1.0,1.0,15
+Cycling Track,"Sprint, Women",False,13.88888888888889,18,16.555555555555557,1.0,1.0,9
+Cycling Track,"Tandem Sprint, 2,000 metres, Men",True,13.666666666666666,14,13.666666666666666,1.0,1.0,3
+Cycling Track,"Team Pursuit, 4,000 metres, Men",True,14.533333333333333,22,14.533333333333333,1.0,1.0,15
+Cycling Track,"Team Pursuit, Women",True,9.0,10,9.0,1.0,1.0,3
+Cycling Track,"Team Sprint, Men",True,10.666666666666666,13,10.666666666666666,1.0,1.0,6
+Cycling Track,"Team Sprint, Women",True,9.0,10,9.0,1.0,1.0,3
+Diving,"Platform, Men",False,18.266666666666666,28,30.266666666666666,1.0,1.0,15
+Diving,"Platform, Women",False,16.533333333333335,24,27.066666666666666,1.0,1.0,15
+Diving,"Springboard, Men",False,20.0,35,31.466666666666665,1.0,1.0,15
+Diving,"Springboard, Women",False,17.733333333333334,28,28.4,1.0,1.0,15
+Diving,"Synchronized Platform, Men",True,8.0,8,8.0,1.0,1.0,6
+Diving,"Synchronized Platform, Women",True,8.0,8,8.0,1.0,1.0,6
+Diving,"Synchronized Springboard, Men",True,8.0,8,8.0,1.0,1.0,6
+Diving,"Synchronized Springboard, Women",True,8.0,8,8.0,1.0,1.0,6
+Equestrian Dressage,"Individual, Open",False,17.0,29,41.93333333333333,1.0,1.0,15
+Equestrian Dressage,"Team, Open",True,9.733333333333333,15,9.733333333333333,1.0,1.0,15
+Equestrian Eventing,"Individual, Open",False,18.8,29,56.4,1.0,1.0,15
+Equestrian Eventing,"Team, Open",True,9.533333333333333,14,9.533333333333333,1.0,0.8,15
+Equestrian Jumping,"Individual, Open",False,23.4,35,63.333333333333336,1.0,1.0,15
+Equestrian Jumping,"Team, Open",True,7.333333333333333,11,7.333333333333333,1.0,0.4666666666666667,15
+Fencing,"Foil, Individual, Men",False,22.2,29,48.86666666666667,1.0,1.0,15
+Fencing,"Foil, Individual, Women",False,19.4,27,40.266666666666666,1.0,1.0,15
+Fencing,"Foil, Team, Men",True,12.0,18,12.0,1.0,1.0,14
+Fencing,"Foil, Team, Women",True,10.23076923076923,14,10.23076923076923,1.0,1.0,13
+Fencing,"Sabre, Individual, Men",False,19.6,25,41.86666666666667,1.0,1.0,15
+Fencing,"Sabre, Individual, Women",False,20.6,25,33.4,1.0,1.0,5
+Fencing,"Sabre, Team, Men",True,10.571428571428571,15,10.571428571428571,1.0,1.0,14
+Fencing,"Sabre, Team, Women",True,8.333333333333334,9,8.333333333333334,1.0,1.0,3
+Fencing,"Épée, Individual, Men",False,24.666666666666668,33,56.53333333333333,1.0,1.0,15
+Fencing,"Épée, Individual, Women",False,20.714285714285715,24,37.0,1.0,1.0,7
+Fencing,"Épée, Team, Men",True,13.928571428571429,21,13.928571428571429,1.0,1.0,14
+Fencing,"Épée, Team, Women",True,8.833333333333334,11,8.833333333333334,1.0,1.0,6
+Football,"Football, Men",True,15.666666666666666,16,15.666666666666666,1.0,1.0,15
+Football,"Football, Women",True,10.571428571428571,12,10.571428571428571,1.0,1.0,7
+Golf,"Individual, Men",False,34.5,35,60.0,1.0,1.0,2
+Golf,"Individual, Women",False,34.5,35,60.0,1.0,1.0,2
+Handball,"Handball, Men",True,12.307692307692308,16,12.307692307692308,1.0,1.0,13
+Handball,"Handball, Women",True,9.166666666666666,12,9.166666666666666,1.0,1.0,12
+Hockey,"Hockey, Men",True,12.266666666666667,16,12.266666666666667,1.0,1.0,15
+Hockey,"Hockey, Women",True,9.454545454545455,12,9.454545454545455,1.0,1.0,11
+Judo,"Extra-Lightweight, Men",False,33.0,43,33.0,1.0,1.0,11
+Judo,"Extra-Lightweight, Women",False,21.11111111111111,28,21.11111111111111,1.0,0.8888888888888888,9
+Judo,"Half-Heavyweight, Men",False,29.23076923076923,34,29.23076923076923,1.0,1.0,13
+Judo,"Half-Heavyweight, Women",False,19.77777777777778,24,19.77777777777778,1.0,0.8888888888888888,9
+Judo,"Half-Lightweight, Men",False,34.72727272727273,46,34.72727272727273,1.0,1.0,11
+Judo,"Half-Lightweight, Women",False,21.88888888888889,29,21.88888888888889,1.0,0.8888888888888888,9
+Judo,"Half-Middleweight, Men",False,33.69230769230769,42,33.69230769230769,1.0,1.0,13
+Judo,"Half-Middleweight, Women",False,23.333333333333332,30,23.333333333333332,1.0,0.8888888888888888,9
+Judo,"Heavyweight, Men",False,25.142857142857142,34,25.285714285714285,1.0,1.0,14
+Judo,"Heavyweight, Women",False,19.88888888888889,27,19.88888888888889,1.0,0.8888888888888888,9
+Judo,"Lightweight, Men",False,32.642857142857146,44,33.07142857142857,1.0,1.0,14
+Judo,"Lightweight, Women",False,21.444444444444443,25,21.444444444444443,1.0,0.8888888888888888,9
+Judo,"Middleweight, Men",False,30.642857142857142,36,31.0,1.0,1.0,14
+Judo,"Middleweight, Women",False,21.0,27,21.0,1.0,0.8888888888888888,9
+Judo,"Open Class, Men",False,18.2,26,18.2,1.0,1.0,5
+Judo,"Team, Mixed",True,7.0,7,7.0,1.0,1.0,1
+Karate,"Kata, Men",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kata, Women",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kumite, >61 kg, Women",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kumite, >75 kg, Men",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kumite, ≤55 kg, Women",False,9.0,9,9.0,1.0,1.0,1
+Karate,"Kumite, ≤61 kg, Women",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kumite, ≤67 kg, Men",False,10.0,10,10.0,1.0,1.0,1
+Karate,"Kumite, ≤75 kg, Men",False,10.0,10,10.0,1.0,1.0,1
+Kendo,"Embusen, Open",False,2.0,2,14.0,,0.0,1
+Kendo,"Renshu, Open",False,1.0,1,3.0,,0.0,1
+Kendo,"Shiai - East-West, Open",False,1.0,1,18.0,,0.0,1
+Kendo,"Shiai - Red-White, Open",False,1.0,1,14.0,,0.0,1
+Marathon Swimming,"10 kilometres Open Water, Men",False,23.25,24,25.25,1.0,1.0,4
+Marathon Swimming,"10 kilometres Open Water, Women",False,23.75,25,25.25,1.0,1.0,4
+Modern Pentathlon,"Individual, Men",False,21.333333333333332,30,43.333333333333336,1.0,1.0,15
+Modern Pentathlon,"Individual, Women",False,22.166666666666668,26,33.333333333333336,1.0,1.0,6
+Modern Pentathlon,"Team, Men",True,13.625,19,13.625,1.0,1.0,8
+Rhythmic Gymnastics,"Group, Women",True,11.571428571428571,14,11.571428571428571,1.0,1.0,7
+Rhythmic Gymnastics,"Individual, Women",False,20.7,24,29.9,1.0,1.0,10
+Roller Hockey,"Roller Hockey, Men",True,12.0,12,12.0,,0.0,1
+Rowing,"Coxed Fours, Men",True,12.875,16,12.875,1.0,1.0,8
+Rowing,"Coxed Fours, Women",True,8.25,10,8.25,1.0,1.0,4
+Rowing,"Coxed Pairs, Men",True,15.125,21,15.125,1.0,1.0,8
+Rowing,"Coxed Quadruple Sculls, Women",True,7.666666666666667,9,7.666666666666667,1.0,1.0,3
+Rowing,"Coxless Fours, Men",True,13.266666666666667,20,13.266666666666667,1.0,1.0,15
+Rowing,"Coxless Fours, Women",True,9.5,10,9.5,1.0,1.0,2
+Rowing,"Coxless Pairs, Men",True,15.4,19,15.4,1.0,1.0,15
+Rowing,"Coxless Pairs, Women",True,10.583333333333334,15,10.583333333333334,1.0,1.0,12
+Rowing,"Double Sculls, Men",True,14.4,19,14.4,1.0,1.0,15
+Rowing,"Double Sculls, Women",True,10.666666666666666,14,10.666666666666666,1.0,1.0,12
+Rowing,"Eights, Men",True,10.0,15,10.0,1.0,1.0,15
+Rowing,"Eights, Women",True,7.083333333333333,8,7.083333333333333,1.0,1.0,12
+Rowing,"Lightweight Coxless Fours, Men",True,13.833333333333334,17,13.833333333333334,1.0,1.0,6
+Rowing,"Lightweight Double Sculls, Men",True,19.571428571428573,21,19.571428571428573,1.0,1.0,7
+Rowing,"Lightweight Double Sculls, Women",True,17.714285714285715,20,17.714285714285715,1.0,1.0,7
+Rowing,"Quadruple Sculls, Men",True,12.25,15,12.25,1.0,1.0,12
+Rowing,"Quadruple Sculls, Women",True,8.777777777777779,10,8.777777777777779,1.0,1.0,9
+Rowing,"Single Sculls, Men",False,22.666666666666668,33,22.666666666666668,1.0,1.0,15
+Rowing,"Single Sculls, Women",False,20.333333333333332,32,20.333333333333332,1.0,1.0,12
+Rugby Sevens,"Rugby Sevens, Men",True,12.0,12,12.0,1.0,1.0,2
+Rugby Sevens,"Rugby Sevens, Women",True,12.0,12,12.0,1.0,1.0,2
+Sailing,"5.5 metres, Open",True,14.5,15,14.5,1.0,1.0,2
+Sailing,"Multihull, Mixed",True,20.0,20,20.0,1.0,1.0,2
+Sailing,"Multihull, Open",True,17.444444444444443,23,17.444444444444443,1.0,1.0,9
+Sailing,"One Person Dinghy, Men",False,35.125,49,35.125,1.0,1.0,8
+Sailing,"One Person Dinghy, Open",False,34.54545454545455,55,34.63636363636363,1.0,1.0,11
+Sailing,"One Person Dinghy, Women",False,31.5,44,31.5,1.0,1.0,8
+Sailing,"One Person Heavyweight Dinghy, Men",False,22.0,24,22.0,1.0,1.0,3
+Sailing,"Skiff, Men",True,19.666666666666668,20,19.666666666666668,1.0,1.0,3
+Sailing,"Skiff, Open",True,18.333333333333332,19,18.333333333333332,1.0,1.0,3
+Sailing,"Skiff, Women",True,20.5,21,20.5,1.0,1.0,2
+Sailing,"Three Person Keelboat, Open",True,21.1,30,21.6,0.95,1.1,10
+Sailing,"Three Person Keelboat, Women",True,14.333333333333334,16,14.333333333333334,1.0,1.0,3
+Sailing,"Two Person Dinghy, Men",True,28.77777777777778,37,28.77777777777778,1.0,1.0,9
+Sailing,"Two Person Dinghy, Open",True,23.0,28,23.0,1.0,1.0,3
+Sailing,"Two Person Dinghy, Women",True,19.88888888888889,22,19.88888888888889,1.0,1.0,9
+Sailing,"Two Person Heavyweight Dinghy, Open",True,22.125,30,22.125,1.0,1.0,8
+Sailing,"Two Person Keelboat, Men",True,16.333333333333332,17,16.333333333333332,1.0,1.0,3
+Sailing,"Two Person Keelboat, Open",True,19.9,26,20.5,0.95,1.1,10
+Sailing,"Windsurfer, Men",False,36.77777777777778,46,38.55555555555556,1.0,1.0,9
+Sailing,"Windsurfer, Open",False,44.0,44,44.0,1.0,1.0,1
+Sailing,"Windsurfer, Women",False,24.22222222222222,28,25.11111111111111,1.0,0.8888888888888888,9
+Shooting,"Air Pistol, 10 metres, Men",False,31.555555555555557,35,44.77777777777778,1.0,1.0,9
+Shooting,"Air Pistol, 10 metres, Team, Mixed",True,15.0,15,17.0,1.0,1.0,1
+Shooting,"Air Pistol, 10 metres, Women",False,31.444444444444443,38,44.55555555555556,1.0,1.0,9
+Shooting,"Air Rifle, 10 metres, Men",False,32.3,37,47.6,1.0,1.0,10
+Shooting,"Air Rifle, 10 metres, Team, Mixed",True,20.0,20,23.0,1.0,1.0,1
+Shooting,"Air Rifle, 10 metres, Women",False,32.0,41,46.8,1.0,1.0,10
+Shooting,"Double Trap, Men",False,18.666666666666668,25,25.0,1.0,1.0,6
+Shooting,"Double Trap, Women",False,12.666666666666666,14,17.666666666666668,1.0,1.0,3
+Shooting,"Free Pistol, 50 metres, Men",False,30.6,38,44.2,1.0,1.0,10
+Shooting,"Free Pistol, 50 metres, Open",False,32.0,42,52.0,1.0,1.0,4
+Shooting,"Free Rifle, Three Positions, 300 metres, Men",False,18.0,18,30.0,1.0,1.0,1
+Shooting,"Free Rifle, Three Positions, 300 metres, Open",False,18.0,20,31.5,1.0,1.0,2
+Shooting,"Rapid-Fire Pistol, 25 metres, Men",False,20.636363636363637,34,29.09090909090909,1.0,1.0,11
+Shooting,"Rapid-Fire Pistol, 25 metres, Open",False,32.0,39,51.5,1.0,1.0,4
+Shooting,"Running Target, 10 metres, Men",False,13.25,15,20.25,1.0,1.0,4
+Shooting,"Running Target, 50 metres, Men",False,15.5,16,23.0,1.0,1.0,2
+Shooting,"Running Target, 50 metres, Open",False,14.0,16,24.666666666666668,1.0,1.0,3
+Shooting,"Skeet, Men",False,29.0,36,40.42857142857143,1.0,1.0,7
+Shooting,"Skeet, Open",False,34.285714285714285,41,58.57142857142857,1.0,1.0,7
+Shooting,"Skeet, Women",False,16.333333333333332,23,18.5,1.0,1.0,6
+Shooting,"Small-Bore Rifle, Prone, 50 metres, Men",False,36.5,46,55.5,1.0,1.0,10
+Shooting,"Small-Bore Rifle, Prone, 50 metres, Open",False,45.25,58,80.25,1.0,1.0,4
+Shooting,"Small-Bore Rifle, Three Positions, 50 metres, Men",False,28.454545454545453,33,45.0,1.0,1.0,11
+Shooting,"Small-Bore Rifle, Three Positions, 50 metres, Open",False,32.5,40,56.75,1.0,1.0,4
+Shooting,"Small-Bore Rifle, Three Positions, 50 metres, Women",False,24.8,33,37.7,1.0,1.0,10
+Shooting,"Sporting Pistol, 25 metres, Women",False,26.9,30,38.6,1.0,1.0,10
+Shooting,"Trap, Men",False,28.0,41,39.5,1.0,1.0,8
+Shooting,"Trap, Open",False,31.714285714285715,42,51.857142857142854,1.0,1.0,7
+Shooting,"Trap, Team, Mixed",True,12.0,12,13.0,1.0,1.0,1
+Shooting,"Trap, Women",False,18.166666666666668,21,20.5,1.0,1.0,6
+Skateboarding,"Park, Men",False,13.0,13,20.0,1.0,1.0,1
+Skateboarding,"Park, Women",False,13.0,13,20.0,1.0,1.0,1
+Skateboarding,"Street, Men",False,12.0,12,20.0,1.0,1.0,1
+Skateboarding,"Street, Women",False,13.0,13,20.0,1.0,1.0,1
+Softball,"Softball, Women",True,7.6,8,7.6,1.0,1.0,5
+Sport Climbing,"Combined, Men",False,15.0,15,20.0,1.0,1.0,1
+Sport Climbing,"Combined, Women",False,15.0,15,20.0,1.0,1.0,1
+Surfing,"Shortboard, Men",False,14.0,14,20.0,1.0,1.0,1
+Surfing,"Shortboard, Women",False,12.0,12,20.0,1.0,1.0,1
+Swimming,"1,500 metres Freestyle, Men",False,24.533333333333335,32,33.86666666666667,1.0,1.0,15
+Swimming,"1,500 metres Freestyle, Women",False,22.0,22,33.0,1.0,1.0,1
+Swimming,"100 metres Backstroke, Men",False,34.357142857142854,48,45.285714285714285,1.0,1.0,14
+Swimming,"100 metres Backstroke, Women",False,28.8,40,39.13333333333333,1.0,1.0,15
+Swimming,"100 metres Breaststroke, Men",False,39.57142857142857,60,49.857142857142854,1.0,1.0,14
+Swimming,"100 metres Breaststroke, Women",False,30.928571428571427,43,41.57142857142857,1.0,1.0,14
+Swimming,"100 metres Butterfly, Men",False,40.5,55,52.92857142857143,1.0,1.0,14
+Swimming,"100 metres Butterfly, Women",False,28.866666666666667,40,39.46666666666667,1.0,1.0,15
+Swimming,"100 metres Freestyle, Men",False,46.733333333333334,66,63.333333333333336,1.0,1.0,15
+Swimming,"100 metres Freestyle, Women",False,34.86666666666667,49,49.0,0.9666666666666667,1.0666666666666667,15
+Swimming,"200 metres Backstroke, Men",False,27.533333333333335,38,37.266666666666666,1.0,1.0,15
+Swimming,"200 metres Backstroke, Women",False,23.785714285714285,31,33.5,1.0,1.0,14
+Swimming,"200 metres Breaststroke, Men",False,31.4,43,41.53333333333333,1.0,1.0,15
+Swimming,"200 metres Breaststroke, Women",False,24.8,35,34.8,1.0,1.0,15
+Swimming,"200 metres Butterfly, Men",False,28.666666666666668,40,38.2,1.0,1.0,15
+Swimming,"200 metres Butterfly, Women",False,21.5,28,29.285714285714285,1.0,1.0,14
+Swimming,"200 metres Freestyle, Men",False,37.0,53,53.07142857142857,1.0,1.0,14
+Swimming,"200 metres Freestyle, Women",False,27.928571428571427,37,39.214285714285715,1.0,1.0,14
+Swimming,"200 metres Individual Medley, Men",False,34.5,49,46.25,1.0,1.0,12
+Swimming,"200 metres Individual Medley, Women",False,28.083333333333332,39,37.833333333333336,1.0,1.0,12
+Swimming,"4 × 100 metres Freestyle Relay, Men",True,17.53846153846154,24,17.53846153846154,1.0,1.0,13
+Swimming,"4 × 100 metres Freestyle Relay, Women",True,14.333333333333334,19,14.333333333333334,1.0,1.0,15
+Swimming,"4 × 100 metres Medley Relay, Men",True,18.266666666666666,25,18.266666666666666,1.0,1.0,15
+Swimming,"4 × 100 metres Medley Relay, Mixed",True,16.0,16,16.0,1.0,1.0,1
+Swimming,"4 × 100 metres Medley Relay, Women",True,15.866666666666667,24,15.866666666666667,1.0,1.0,15
+Swimming,"4 × 200 metres Freestyle Relay, Men",True,16.066666666666666,19,16.066666666666666,1.0,1.0,15
+Swimming,"4 × 200 metres Freestyle Relay, Women",True,16.428571428571427,21,16.428571428571427,1.0,1.0,7
+Swimming,"400 metres Freestyle, Men",False,29.933333333333334,40,42.46666666666667,1.0,1.0,15
+Swimming,"400 metres Freestyle, Women",False,24.0,35,33.6,1.0,1.0,15
+Swimming,"400 metres Individual Medley, Men",False,23.933333333333334,39,32.6,1.0,1.0,15
+Swimming,"400 metres Individual Medley, Women",False,20.733333333333334,29,29.266666666666666,1.0,1.0,15
+Swimming,"50 metres Freestyle, Men",False,64.66666666666667,90,76.66666666666667,1.0,1.0,9
+Swimming,"50 metres Freestyle, Women",False,60.77777777777778,84,71.44444444444444,1.0,1.0,9
+Swimming,"800 metres Freestyle, Men",False,28.0,28,34.0,1.0,1.0,1
+Swimming,"800 metres Freestyle, Women",False,20.428571428571427,29,28.857142857142858,1.0,1.0,14
+Table Tennis,"Doubles, Men",True,19.4,22,20.2,1.0,1.0,5
+Table Tennis,"Doubles, Mixed",True,8.0,8,8.0,1.0,1.0,1
+Table Tennis,"Doubles, Women",True,16.4,20,16.6,1.0,0.4,5
+Table Tennis,"Singles, Men",False,40.333333333333336,46,66.77777777777777,1.0,1.0,9
+Table Tennis,"Singles, Women",False,38.44444444444444,45,65.33333333333333,1.0,1.0,9
+Table Tennis,"Team, Men",True,12.75,14,12.75,1.0,1.0,4
+Table Tennis,"Team, Women",True,12.0,12,12.0,1.0,1.0,4
+Taekwondo,"Bantamweight, Men",False,11.0,14,11.0,,0.0,2
+Taekwondo,"Bantamweight, Women",False,7.5,8,7.5,,0.0,2
+Taekwondo,"Featherweight, Men",False,14.625,16,14.625,1.0,0.75,8
+Taekwondo,"Featherweight, Women",False,12.875,16,12.875,1.0,0.75,8
+Taekwondo,"Finweight, Men",False,12.0,16,12.0,,0.0,2
+Taekwondo,"Finweight, Women",False,7.5,8,7.5,,0.0,2
+Taekwondo,"Flyweight, Men",False,14.75,16,14.75,1.0,0.75,8
+Taekwondo,"Flyweight, Women",False,13.25,16,13.25,1.0,0.75,8
+Taekwondo,"Heavyweight, Men",False,14.25,16,14.25,1.0,0.75,8
+Taekwondo,"Heavyweight, Women",False,13.0,16,13.0,1.0,0.75,8
+Taekwondo,"Lightweight, Men",False,11.0,14,11.0,,0.0,2
+Taekwondo,"Lightweight, Women",False,8.0,8,8.0,,0.0,2
+Taekwondo,"Middleweight, Men",False,11.5,15,11.5,,0.0,2
+Taekwondo,"Middleweight, Women",False,6.5,8,6.5,,0.0,2
+Taekwondo,"Welterweight, Men",False,14.625,16,14.625,1.0,0.75,8
+Taekwondo,"Welterweight, Women",False,13.0,16,13.0,1.0,0.75,8
+Tennis,"Doubles, Men",True,18.2,23,18.5,1.0,0.9,10
+Tennis,"Doubles, Mixed",True,9.25,11,9.75,1.0,0.75,4
+Tennis,"Doubles, Women",True,14.1,18,14.6,1.0,0.8,10
+Tennis,"Singles, Men",False,30.727272727272727,36,58.72727272727273,1.0,0.8181818181818182,11
+Tennis,"Singles, Women",False,29.0,36,55.45454545454545,1.0,0.8181818181818182,11
+Trampolining,"Individual, Men",False,12.833333333333334,14,15.333333333333334,1.0,1.0,6
+Trampolining,"Individual, Women",False,12.833333333333334,14,15.333333333333334,1.0,1.0,6
+Triathlon,"Olympic Distance, Men",False,29.333333333333332,32,53.0,1.0,1.0,6
+Triathlon,"Olympic Distance, Women",False,28.666666666666668,31,53.0,1.0,1.0,6
+Triathlon,"Relay, Mixed",True,17.0,17,17.0,1.0,1.0,1
+Volleyball,"Volleyball, Men",True,11.333333333333334,12,11.333333333333334,1.0,1.0,15
+Volleyball,"Volleyball, Women",True,9.733333333333333,12,9.733333333333333,1.0,1.0,15
+Water Polo,"Water Polo, Men",True,12.533333333333333,16,12.533333333333333,1.0,1.0,15
+Water Polo,"Water Polo, Women",True,8.0,10,8.0,1.0,1.0,6
+Waterskiing,"Jumping, Men",False,10.0,10,14.0,,0.0,1
+Waterskiing,"Jumping, Women",False,6.0,6,6.0,,0.0,1
+Waterskiing,"Slalom, Men",False,11.0,11,15.0,,0.0,1
+Waterskiing,"Slalom, Women",False,5.0,5,5.0,,0.0,1
+Waterskiing,"Tricks, Men",False,11.0,11,16.0,,0.0,1
+Waterskiing,"Tricks, Women",False,5.0,5,5.0,,0.0,1
+Weightlifting,"Bantamweight, Men",False,17.428571428571427,19,20.928571428571427,1.0,1.0,14
+Weightlifting,"Featherweight, Men",False,17.333333333333332,26,20.466666666666665,1.0,1.0,15
+Weightlifting,"Featherweight, Women",False,11.833333333333334,17,12.0,1.0,1.0,6
+Weightlifting,"Flyweight, Men",False,15.857142857142858,19,20.142857142857142,1.0,1.0,7
+Weightlifting,"Flyweight, Women",False,12.0,14,13.5,1.0,1.0,6
+Weightlifting,"Heavyweight I, Men",False,17.6,24,20.8,1.0,1.0,5
+Weightlifting,"Heavyweight II, Men",False,15.6,20,19.0,1.0,1.0,5
+Weightlifting,"Heavyweight, Men",False,16.1,19,19.5,1.0,1.0,10
+Weightlifting,"Heavyweight, Women",False,13.0,15,13.5,1.0,1.0,6
+Weightlifting,"Light-Heavyweight, Men",False,19.0,25,21.6,1.0,1.0,15
+Weightlifting,"Light-Heavyweight, Women",False,12.666666666666666,16,13.666666666666666,1.0,1.0,6
+Weightlifting,"Lightweight, Men",False,18.2,26,21.4,1.0,1.0,15
+Weightlifting,"Lightweight, Women",False,14.333333333333334,17,15.333333333333334,1.0,1.0,6
+Weightlifting,"Middle-Heavyweight, Men",False,18.0,22,21.733333333333334,1.0,1.0,15
+Weightlifting,"Middleweight, Men",False,17.933333333333334,27,20.8,1.0,0.9333333333333333,15
+Weightlifting,"Middleweight, Women",False,12.333333333333334,18,12.666666666666666,1.0,1.0,6
+Weightlifting,"Super-Heavyweight, Men",False,13.461538461538462,21,16.153846153846153,1.0,1.0,13
+Weightlifting,"Super-Heavyweight, Women",False,11.833333333333334,14,12.666666666666666,1.0,1.0,6
+Wrestling,"Bantamweight, Freestyle, Men",False,20.5,28,20.5,1.0,1.0,10
+Wrestling,"Bantamweight, Greco-Roman, Men",False,19.7,29,19.7,1.0,1.0,10
+Wrestling,"Featherweight, Freestyle, Men",False,20.133333333333333,28,20.133333333333333,1.0,1.0,15
+Wrestling,"Featherweight, Freestyle, Women",False,17.5,19,17.5,1.0,1.0,2
+Wrestling,"Featherweight, Greco-Roman, Men",False,19.266666666666666,27,19.266666666666666,1.0,1.0,15
+Wrestling,"Flyweight, Freestyle, Men",False,20.88888888888889,30,20.88888888888889,1.0,1.0,9
+Wrestling,"Flyweight, Freestyle, Women",False,16.8,19,16.8,1.0,1.0,5
+Wrestling,"Flyweight, Greco-Roman, Men",False,17.77777777777778,24,17.77777777777778,1.0,1.0,9
+Wrestling,"Heavyweight, Freestyle, Men",False,17.0,22,17.0,1.0,1.0,15
+Wrestling,"Heavyweight, Freestyle, Women",False,16.0,18,16.0,1.0,1.0,5
+Wrestling,"Heavyweight, Greco-Roman, Men",False,16.0,22,16.0,1.0,1.0,15
+Wrestling,"Light-Flyweight, Freestyle, Men",False,15.714285714285714,19,15.714285714285714,1.0,1.0,7
+Wrestling,"Light-Flyweight, Greco-Roman, Men",False,15.714285714285714,20,15.714285714285714,1.0,1.0,7
+Wrestling,"Light-Heavyweight, Freestyle, Men",False,19.266666666666666,28,19.266666666666666,1.0,1.0,15
+Wrestling,"Light-Heavyweight, Freestyle, Women",False,17.0,18,17.0,1.0,1.0,2
+Wrestling,"Light-Heavyweight, Greco-Roman, Men",False,17.933333333333334,23,17.933333333333334,1.0,1.0,15
+Wrestling,"Lightweight, Freestyle, Men",False,21.76923076923077,30,21.76923076923077,1.0,1.0,13
+Wrestling,"Lightweight, Freestyle, Women",False,16.6,20,16.6,1.0,1.0,5
+Wrestling,"Lightweight, Greco-Roman, Men",False,20.76923076923077,30,20.76923076923077,1.0,1.0,13
+Wrestling,"Middleweight, Freestyle, Men",False,19.733333333333334,29,19.733333333333334,1.0,1.0,15
+Wrestling,"Middleweight, Freestyle, Women",False,16.8,20,16.8,1.0,1.0,5
+Wrestling,"Middleweight, Greco-Roman, Men",False,18.533333333333335,21,18.533333333333335,1.0,1.0,15
+Wrestling,"Super-Heavyweight, Freestyle, Men",False,16.0,20,16.0,0.9615384615384616,1.0769230769230769,13
+Wrestling,"Super-Heavyweight, Greco-Roman, Men",False,16.0,20,16.0,1.0,1.0,13
+Wrestling,"Welterweight, Freestyle, Men",False,20.933333333333334,29,20.933333333333334,1.0,1.0,15
+Wrestling,"Welterweight, Greco-Roman, Men",False,18.8,22,18.8,1.0,1.0,15
+Wushu,"Changquan, Men",False,10.0,10,10.0,,0.0,1
+Wushu,"Changquan, Women",False,6.0,6,6.0,,0.0,1
+Wushu,"Daoshu & Gunshu, Men",False,9.0,9,9.0,,0.0,1
+Wushu,"Daoshu & Gunshu, Women",False,7.0,7,7.0,,0.0,1
+Wushu,"Jianshu & Qiangshu, Men",False,10.0,10,10.0,,0.0,1
+Wushu,"Jianshu & Qiangshu, Women",False,6.0,6,6.0,,0.0,1
+Wushu,"Nanquan & Nandao, Women",False,8.0,8,8.0,,0.0,1
+Wushu,"Nanquan & Nangun, Men",False,11.0,11,11.0,,0.0,1
+Wushu,"Sanshou (≤52 kilograms), Women",False,9.0,9,9.0,,0.0,1
+Wushu,"Sanshou (≤56 kilograms), Men",False,8.0,8,8.0,,0.0,1
+Wushu,"Sanshou (≤60 kilograms), Women",False,7.0,7,7.0,,0.0,1
+Wushu,"Sanshou (≤70 kilograms), Men",False,7.0,7,7.0,,0.0,1
+Wushu,"Sanshou (≤85 kilograms), Men",False,8.0,8,8.0,,0.0,1
+Wushu,"Taijiquan & Taijijuan, Men",False,8.0,8,8.0,,0.0,1
+Wushu,"Taijiquan & Taijijuan, Women",False,7.0,7,7.0,,0.0,1
