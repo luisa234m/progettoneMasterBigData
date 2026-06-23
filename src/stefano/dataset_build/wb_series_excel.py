@@ -3,7 +3,7 @@ import pandas as pd
 import wbgapi as wb
 
 
-OUTPUT_FILE = "../../data/xlsx_pptx/world_bank_series.xlsx"
+OUTPUT_FILE = "../../../data/xlsx_pptx/world_bank_series.xlsx"
 DATABASES_SHEET_NAME = "databases"
 
 

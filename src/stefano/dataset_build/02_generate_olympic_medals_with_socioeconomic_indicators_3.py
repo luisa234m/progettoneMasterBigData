@@ -6,13 +6,13 @@ from typing import Any
 import pandas as pd
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
 DEFAULT_DATA_DIR = PROJECT_ROOT / "data"
-DEFAULT_MAIN_FILE = DEFAULT_DATA_DIR / "Olympic_Medal_Tally_History_definitivo.csv"
-DEFAULT_SUMMARY_FILE = DEFAULT_DATA_DIR / "Olympic_Games_Summary.csv"
-DEFAULT_CLEAN_DIR = DEFAULT_DATA_DIR / "clean"
-DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "output"
+DEFAULT_MAIN_FILE = DEFAULT_DATA_DIR / "csv_olimpiadi" / "Olympic_Medal_Tally_History_definitivo.csv"
+DEFAULT_SUMMARY_FILE = DEFAULT_DATA_DIR / "csv_olimpiadi" / "Olympic_Games_Summary.csv"
+DEFAULT_CLEAN_DIR = DEFAULT_DATA_DIR / "csv_wb_paesi"
+DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "test2"
 DEFAULT_YEARS_TO_AGGREGATE = 4
 
 OUTPUT_CSV_NAME = "olympic_medals_with_socioeconomic_indicators_3.csv"
@@ -538,15 +538,15 @@ if __name__ == "__main__":
     resolved_main_file = (
         args.main_file
         if args.main_file is not None
-        else args.data_dir / "Olympic_Medal_Tally_History_definitivo.csv"
+        else DEFAULT_MAIN_FILE
     )
     resolved_summary_file = (
         args.summary_file
         if args.summary_file is not None
-        else args.data_dir / "Olympic_Games_Summary.csv"
+        else DEFAULT_SUMMARY_FILE
     )
     resolved_clean_dir = (
-        args.clean_dir if args.clean_dir is not None else args.data_dir / "clean"
+        args.clean_dir if args.clean_dir is not None else DEFAULT_CLEAN_DIR
     )
 
     main(
