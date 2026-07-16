@@ -1,0 +1,11 @@
+report:
+  - set: ranking_emotions
+  - headline: Classifica emozioni
+  - paragraph: Il documento riporta la media delle emozioni espresse in circa 400 articoli di giornale (Repubblica) sulla scherma italiana. Gli articoli coprono un arco temporale che va dal 2000 al 2024.
+  - paragraph: I testi sono stati tradotti in inglese con Llama-3.1-8B quantizzato a 4 bit. Successivamente ogni testo è stato analizzato con il modello 'roberta-base-go_emotions' specializzato nel riconoscimento delle emozioni.
+  - paragraph: Si può notare come, in media, gli articolo siano piuttosto carichi da un punto di vista emotivo, soprattutto per quanto riguarda l'emozione 'approvazione'.
+  - textualize: true
+  - console: true
+  - dump:
+      report_name: repubblica_emotions_new
+      extension: docx
