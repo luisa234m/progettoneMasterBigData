@@ -1,0 +1,32 @@
+{
+    "llama": {
+        "model_path": "/home/ac87/Informatica/LLM/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf",
+        "n_gpu_layers": -1,
+        "n_ctx": 32000,
+        "flash_attn": true,
+        "verbose": false
+    },
+    "llama_small": {
+        "model_path": "/home/ac87/Informatica/LLM/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "n_gpu_layers": -1,
+        "n_ctx": 64000,
+        "repeat_penalty": 1.05,
+        "flash_attn": true,
+        "verbose": false
+    },
+    "sentiment_analysis": {
+        "model": "/home/ac87/Informatica/LLM/roberta-base-go_emotions",
+        "device": "GPU",
+        "top_k": null
+    },
+    "chunker": {
+        "tokenizer_or_token_counter": "/home/ac87/Informatica/LLM/xlm-roberta-base",
+        "size": 500,
+        "overlap": 25
+    },
+    "smart_search": {
+        "splade_path": "/home/ac87/Informatica/LLM/splade_v2_max",
+        "model_path": "/home/ac87/Informatica/LLM/gte_base"
+    }
+}
+

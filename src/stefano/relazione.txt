@@ -1,0 +1,407 @@
+RELAZIONE - Evoluzione del medagliere per genere (analisi definitiva)
+Notebook di riferimento: src/stefano/evoluzione_medagliere_definitivo.ipynb
+======================================================================
+
+
+1. SCOPO DELL'ANALISI E DOMANDE GUIDA
+----------------------------------------------------------------------
+Il notebook studia le Olimpiadi ESTIVE dal 1964 al 2020 e risponde a tre
+domande:
+
+  D1. Come e' cresciuto nel tempo il peso delle medaglie femminili?
+  D2. Quali paesi costruiscono una parte rilevante del proprio
+      medagliere sulle competizioni femminili?
+  D3. I risultati maschili e femminili rispondono agli stessi fattori
+      socio-economici?
+
+L'idea di fondo: il medagliere femminile non si puo' leggere da solo, va
+letto insieme alla PARTECIPAZIONE (quante atlete gareggiano) e alle
+OPPORTUNITA' (quanti eventi femminili esistono in programma). Per la
+parte socio-economica si usano gli indicatori World Bank del dataset
+definitivo.
+
+
+2. DATASET USATI
+----------------------------------------------------------------------
+a) data/csv_olimpiadi/Olympic_Athlete_Event_Details.csv
+   Una riga per ATLETA per EVENTO: edizione, paese (NOC), sport, evento,
+   atleta, eventuale medaglia, flag sport di squadra. E' la base per
+   contare medaglie e partecipanti. Righe totali: 316.834; dopo il
+   filtro "Summer Olympics 1964-2020" restano 179.141.
+
+b) data/csv_olimpiadi/Olympic_Athlete_Biography.csv
+   Una riga per atleta: da qui si ricava il SESSO dell'atleta (colonna
+   sex), che serve per l'analisi della partecipazione. 155.861 righe.
+
+c) src/santina/dataset_indicatori_definitivo.csv
+   Una riga per PAESE per EDIZIONE (3.368 righe, 218 paesi, 15 edizioni
+   dal 1964 al 2020): medagliere ufficiale (oro/argento/bronzo/totale) e
+   ~30 indicatori socio-economici World Bank in italiano (PIL,
+   popolazione, aspettativa di vita, mortalita' infantile, ecc.).
+   Sostituisce il vecchio dataset_olimpiadi_indicatori_ita.csv, ormai
+   obsoleto.
+
+   PUNTO IMPORTANTE (possibile domanda): il dataset definitivo mantiene
+   i CODICI NOC STORICI (URS per l'Unione Sovietica, GDR per la Germania
+   Est, ecc.), mentre il vecchio dataset rimappava URS su RUS. Questo
+   permette un merge diretto con i dati olimpici senza rimappature
+   manuali: tutti i 144 paesi che hanno vinto almeno una medaglia estiva
+   1964-2020 sono presenti nel dataset degli indicatori.
+
+
+3. METODO: LE TRE SCELTE CHIAVE DELLA PREPARAZIONE DATI
+----------------------------------------------------------------------
+3.1 Deduplica delle medaglie di squadra
+    Il file atleta-evento ha una riga per atleta: in uno sport di
+    squadra la stessa medaglia compare una volta per ogni componente
+    (es. una vittoria nel basket = 12 righe). Per non gonfiare il
+    medagliere:
+      - sport individuali: si tengono le righe cosi' come sono;
+      - sport di squadra: si tiene UNA sola riga per combinazione
+        anno + paese + sport + evento + tipo di medaglia.
+    Dopo la deduplica restano 11.781 "medaglie-evento".
+
+3.2 Classificazione del genere dell'EVENTO
+    Ogni evento viene classificato leggendo il suo nome (regex):
+      - contiene "Women"  -> Femminile
+      - contiene "Men"    -> Maschile
+      - altrimenti        -> Misto/Altro
+    Gli eventi misti (es. doppio misto, equitazione) restano SEPARATI:
+    non vengono attribuiti ne' al medagliere maschile ne' a quello
+    femminile, e sono esclusi dai denominatori delle quote.
+    Nota la distinzione concettuale: il GENERE DELL'EVENTO si usa per le
+    medaglie; il SESSO DELL'ATLETA (dalle biografie) si usa per la
+    partecipazione. La tabella incrociata nel notebook (crosstab)
+    verifica che gli eventi "Femminile" siano disputati quasi solo da
+    atlete e viceversa: e' il controllo di qualita' della regex.
+
+3.3 Controllo di coerenza con il medagliere ufficiale
+    Il totale ricostruito (F + M + misti) e' stato confrontato con la
+    colonna Totale_Medaglie del dataset indicatori:
+      correlazione r = 0.987, scarto medio assoluto = 0.92 medaglie
+      per paese-edizione.
+    Le piccole differenze dipendono dal modo di contare le squadre e da
+    casi limite; la sostanza del medagliere e' la stessa. Questo
+    controllo dimostra che la ricostruzione e' affidabile.
+
+3.4 Il panel per l'analisi socio-economica
+    Il dataset indicatori fa da BASE del merge (anno + codice NOC): cosi'
+    restano anche i paesi con ZERO medaglie in una data edizione. E'
+    essenziale: se si correlassero gli indicatori solo sui vincitori, si
+    introdurrebbe un bias di selezione. Panel finale: 3.368 osservazioni
+    paese-edizione, 218 paesi.
+
+3.5 Trasformazioni
+    - Target: log(1 + medaglie). Il conteggio medaglie e' molto
+      asimmetrico (pochi paesi con tantissime medaglie, tanti con poche):
+      senza log, USA/URSS dominerebbero ogni correlazione. Il "+1"
+      serve perche' log(0) non esiste.
+    - Stessa logica per PIL assoluto, PIL pro capite e popolazione:
+      trasformati in log.
+    - Le correlazioni sono di Pearson e sono DESCRITTIVE: misurano
+      associazioni lineari, NON causalita'.
+
+
+4. I GRAFICI, UNO PER UNO
+----------------------------------------------------------------------
+I numeri corrispondono ai file esportati in src/stefano/charts_definitivo/.
+Palette coerente in tutto il notebook: blu #3569a8 = maschile,
+magenta #c7437a = femminile, grigio #8a8a8a = misto/altro.
+
+--- DOMANDA 1: il peso delle medaglie femminili nel tempo ---
+
+GRAFICO 01 - Partecipanti per sesso (linee)
+  Cosa mostra: atleti UNICI per edizione (un atleta iscritto a piu' gare
+  conta una volta), separati per sesso.
+  Cosa si vede: la linea maschile e' sostanzialmente stabile/piatta; la
+  linea femminile cresce senza interruzioni per tutto il periodo. La
+  quota di atlete passa dal 13,0% (1964) al 47,8% (2020). Le flessioni
+  del 1976-1984 riflettono i boicottaggi (Montreal, Mosca, Los Angeles).
+  Messaggio: la crescita del fenomeno "sport femminile olimpico" e'
+  prima di tutto una crescita di ACCESSO.
+
+GRAFICO 02 - Quota di atlete vs quota di medaglie femminili (due linee,
+             stessa tonalita', tratteggio diverso; linea al 50% = parita')
+  Cosa mostra: due quote calcolate sullo stesso concetto di denominatore
+  (femminile / (femminile + maschile), misti esclusi): la quota di
+  ATLETE tra i partecipanti e la quota di MEDAGLIE femminili.
+  Cosa si vede: nel 1964 la quota di medaglie (21,0%) e' NETTAMENTE
+  SUPERIORE alla quota di partecipazione (13,0%); nel tempo le due curve
+  convergono fino quasi a coincidere nel 2020 (48,3% vs 47,8%).
+  Come interpretarlo (domanda probabile): le medaglie disponibili
+  dipendono dal numero di EVENTI in programma, non dal numero di
+  atleti. Nei primi decenni il programma femminile era piccolo ma con
+  delegazioni ancora piu' piccole e concentrate in pochi paesi forti
+  (blocco sovietico): poche atlete "convertivano" molte medaglie. Con
+  l'espansione del programma e della partecipazione, il rapporto si
+  normalizza e le due quote si allineano.
+  Messaggio chiave dell'intera analisi: nel 2020 il medagliere e' quasi
+  paritario perche' partecipazione e programma sono quasi paritari.
+
+GRAFICO 03 - Composizione del medagliere (area normalizzata al 100%)
+  Cosa mostra: per ogni edizione, la ripartizione percentuale delle
+  medaglie tra eventi maschili, femminili e misti.
+  Cosa si vede: la banda femminile (magenta) si allarga costantemente a
+  scapito di quella maschile; la banda grigia (misti) e' sottile e
+  quasi costante, con un piccolo aumento a Tokyo 2020 (55 medaglie
+  miste: staffette miste, tiro misto ecc., contro le ~30 delle edizioni
+  precedenti).
+  Differenza rispetto al grafico 02: qui si vede la composizione del
+  TOTALE, misti inclusi; il 02 isola il confronto F vs M.
+
+GRAFICO 04 - Resa: medaglie ogni 100 partecipanti, per genere (linee)
+  Cosa mostra: quante medaglie di eventi di un genere vengono assegnate
+  ogni 100 partecipanti di quel sesso. E' il grafico che risponde alla
+  domanda "le donne vincono di piu' perche' sono piu' brave o perche'
+  sono di piu'?"
+  Cosa si vede: nel 1964 la resa femminile era 14,0 medaglie/100 atlete
+  contro 7,9 degli uomini (quasi doppia); le due curve convergono e dal
+  2008-2012 in poi sono praticamente identiche (2020: 8,9 vs 8,8).
+  Interpretazione: la resa femminile alta dei primi decenni NON
+  significa che le atlete fossero "piu' forti": significa che il
+  rapporto eventi/partecipanti era piu' favorevole (programma piccolo,
+  poche partecipanti). Oggi il sistema femminile e' maturo e ha la
+  stessa densita' di medaglie di quello maschile. Quindi: la crescita
+  del medagliere femminile e' spiegata dalla partecipazione, non da un
+  cambiamento di resa.
+  AVVERTENZA da sapere: le medaglie di squadra sono contate una volta
+  per squadra, quindi la "resa" non e' la probabilita' individuale di
+  vincere; il confronto tra generi resta pero' coerente perche' il
+  criterio e' lo stesso per entrambi.
+
+--- DOMANDA 2: quali paesi costruiscono il medagliere sulle donne ---
+
+GRAFICO 05 - Quota femminile del medagliere per paese, 1964-2020
+             (dot plot; dimensione del punto = medaglie totali M+F;
+             linea tratteggiata al 50% = parita')
+  Cosa mostra: per i 62 paesi con almeno 25 medaglie di genere, la
+  percentuale del medagliere vinta in eventi femminili sull'intero
+  periodo. La soglia di 25 serve a evitare quote instabili calcolate su
+  numeri piccoli (con 4 medaglie una quota del 75% non significa nulla).
+  Cosa si vede: 8 paesi sopra la parita', in testa Jamaica (62,5%),
+  Chinese Taipei (61,8%), Paesi Bassi (57,8%), poi Cina (57,6%),
+  Romania (54,4%). In coda, con quote quasi nulle: Iran (1,7%),
+  Georgia (2,5%), Uzbekistan (2,8%), e piu' su Finlandia (13,0%) e
+  Turchia (15,7%).
+  Come commentare gli estremi:
+   - Cina e Romania: sistemi sportivi statali che hanno investito presto
+     e molto sullo sport femminile;
+   - Jamaica: specializzazione nella velocita' femminile (atletica);
+   - Iran/Georgia/Uzbekistan: paesi il cui medagliere si concentra in
+     sport a lunga tradizione maschile (lotta, sollevamento pesi) e dove
+     l'accesso femminile allo sport agonistico e' piu' recente/limitato.
+  Questo aggancia la domanda 3: le differenze non sembrano solo
+  economiche, ma anche culturali e di politica sportiva.
+
+GRAFICO 06 - Quota femminile prima e dopo il 2000 (scatter con diagonale)
+  Cosa mostra: per ogni paese con almeno 10 medaglie di genere in
+  ENTRAMBI i periodi (43 paesi), la quota femminile 1964-1996 (asse x)
+  contro la quota 2000-2020 (asse y). La diagonale e' il "nessun
+  cambiamento": sopra la diagonale il medagliere si e' spostato verso
+  le donne.
+  Cosa si vede: 42 paesi su 43 stanno SOPRA la diagonale (unica
+  eccezione: Repubblica Ceca, -3,6 punti). Lo spostamento e' quindi un
+  fenomeno GENERALE, non di pochi paesi. Le salite piu' forti:
+  Svizzera (da 4,0% a 52,4%), Messico (8,3% -> 56,7%), Corea del Nord
+  (16,0% -> 58,6%), Kenya (2,1% -> 42,4%), Polonia (14,5% -> 51,4%).
+  Messaggio: la transizione verso un medagliere piu' femminile ha
+  investito tutti, ma con velocita' molto diverse - ed e' proprio
+  questa varieta' che gli indicatori socio-economici, da soli, non
+  spiegano bene (si veda il grafico 09).
+
+--- DOMANDA 3: gli stessi fattori socio-economici? ---
+
+GRAFICO 07 - Correlazioni per genere, fianco a fianco (dot plot:
+             per ogni indicatore due punti, blu = r con log medaglie
+             maschili, magenta = r con log medaglie femminili;
+             riga verticale a r = 0)
+  Cosa mostra: la correlazione di Pearson di ciascun indicatore con
+  log(1+medaglie), calcolata separatamente per i due generi su tutto il
+  panel (paesi con zero medaglie inclusi).
+  Cosa si vede - i valori principali (F / M):
+    log(PIL assoluto)        +0.58 / +0.61   <- il piu' forte
+    log(Popolazione)         +0.39 / +0.45
+    Eta' lavorativa %        +0.37 / +0.38
+    log(PIL pro capite)      +0.35 / +0.33
+    Aspettativa di vita      +0.34 / +0.35
+    Urbanizzazione %         +0.27 / +0.29
+    ...
+    Crescita demografica %   -0.27 / -0.30
+    Mortalita' infantile     -0.33 / -0.35
+  Lettura: (a) i fattori "di taglia" (PIL assoluto = dimensione
+  dell'economia, popolazione) dominano: i paesi grandi e ricchi vincono
+  di piu', per entrambi i generi; (b) gli indicatori di sviluppo umano
+  (aspettativa di vita alta, mortalita' infantile bassa) vanno nella
+  direzione attesa; (c) soprattutto: PER OGNI INDICATORE I DUE PUNTI
+  SONO VICINISSIMI. La risposta alla domanda 3 e' visivamente "si',
+  sostanzialmente gli stessi fattori".
+  Perche' PIL assoluto conta piu' del PIL pro capite? Perche' il numero
+  di medaglie dipende dalla scala del sistema (quanti atleti puoi
+  formare e mandare), piu' che dal benessere medio del singolo.
+
+GRAFICO 08 - Differenza tra correlazione femminile e maschile (barre
+             divergenti: a destra magenta = piu' legato al successo
+             femminile, a sinistra blu = piu' legato al maschile)
+  Cosa mostra: per ogni indicatore, r_femminile - r_maschile. E' lo
+  "zoom" sulle differenze che nel grafico 07 si vedono appena.
+  Cosa si vede: tutte le differenze sono piccole, comprese tra circa
+  -0.06 e +0.07. La piu' ampia a favore del femminile e' l'apertura
+  commerciale (+0.066), a favore del maschile la popolazione (-0.060) e
+  il PIL assoluto (-0.032). Il PIL pro capite pende leggermente verso
+  il femminile (+0.024).
+  Come commentarlo: le divergenze sono di un ordine di grandezza
+  inferiori alle correlazioni stesse (0.06 contro 0.6). Non vanno
+  sovrainterpretate: la conclusione onesta e' che i due medaglieri
+  rispondono in modo quasi identico ai fattori strutturali. Se
+  esistono fattori specifici del successo femminile, NON sono in
+  questo set di indicatori (-> domande aperte).
+
+GRAFICO 09 - Correlazioni con la QUOTA femminile del medagliere (barre)
+  Cosa mostra: cambio di variabile dipendente. Non piu' QUANTO si vince,
+  ma COME e' composto il medagliere: correlazione degli indicatori con
+  la quota femminile, solo su osservazioni paese-edizione con almeno 5
+  medaglie di genere (le quote su 1-2 medaglie sono rumore puro).
+  Cosa si vede: correlazioni tutte deboli, la massima e' log(PIL
+  assoluto) con r = 0.28, poi PIL pro capite (0.26), aspettativa di
+  vita e apertura commerciale (0.22); negativa la spesa militare
+  (-0.22) e la mortalita' infantile (-0.21).
+  Lettura (punto concettuale importante): gli stessi indicatori che
+  spiegano bene il VOLUME di medaglie (r fino a 0.6) spiegano molto
+  poco la COMPOSIZIONE di genere (r max 0.28). In sintesi: la ricchezza
+  dice quanto vinci, molto meno "con chi" vinci. La composizione
+  dipende da fattori che qui non osserviamo (politiche sportive,
+  cultura, scelte di investimento per disciplina).
+
+GRAFICO 10 - PIL pro capite e medaglie, 2000-2020, con rette di
+             regressione separate per genere (scatter + 2 rette)
+  Cosa mostra: la relazione ricchezza-medaglie vista da vicino nel
+  periodo piu' comparabile (dal 2000 il programma femminile e' ampio).
+  Ogni punto e' un paese-edizione; x = log(PIL pro capite),
+  y = log(1+medaglie); rette stimate separatamente per M e F
+  (transform_regression di Altair).
+  Cosa si vede: nuvole di punti quasi sovrapposte e RETTE QUASI
+  PARALLELE e vicine. Pendenza simile = a parita' di aumento di
+  ricchezza, l'aumento atteso di medaglie e' lo stesso per uomini e
+  donne. E' la conferma visiva, su dati recenti, di quanto detto con i
+  grafici 07-08.
+  Nota: molti punti stanno a y=0 (log(1+0)=0): sono i paesi senza
+  medaglie, volutamente inclusi nel panel.
+
+GRAFICO 11 - Quota femminile vs PIL pro capite, 2000-2020 (scatter con
+             retta di regressione; dimensione punto = medaglie M+F)
+  Cosa mostra: se lo sviluppo economico "femminilizzi" il medagliere.
+  Solo paesi-edizione con almeno 5 medaglie di genere.
+  Cosa si vede: la retta e' leggermente crescente ma la nuvola e'
+  molto dispersa: a ogni livello di ricchezza ci sono paesi con quote
+  femminili sia alte sia basse (r ~ 0.26 pooled su tutto il periodo).
+  Lettura: la ricchezza aiuta un po', ma NON determina la composizione
+  del medagliere. E' il grafico che apre la strada alle domande aperte.
+
+
+5. RISPOSTE SINTETICHE ALLE TRE DOMANDE (da sapere a memoria)
+----------------------------------------------------------------------
+D1. Il peso delle medaglie femminili cresce senza interruzioni: dal 21%
+    del 1964 al 48,3% del 2020. La quota di medaglie converge con la
+    quota di partecipazione (13% -> 47,8%) e la "resa" per partecipante
+    si e' equalizzata (oggi ~8,9 medaglie/100 atleti per entrambi).
+    Quindi la crescita del medagliere femminile e' essenzialmente
+    crescita di partecipazione e di opportunita' di gara, non un
+    cambiamento di efficienza.
+
+D2. Otto paesi (tra quelli con almeno 25 medaglie) hanno vinto piu' con
+    le donne che con gli uomini: Jamaica, Chinese Taipei, Paesi Bassi,
+    Cina, Romania, Thailandia, Canada, Colombia. All'estremo opposto
+    Iran, Georgia, Uzbekistan (quote sotto il 3%). Il confronto
+    1964-1996 vs 2000-2020 mostra che 42 paesi su 43 hanno aumentato la
+    quota femminile: e' un fenomeno generale con velocita' molto
+    diverse.
+
+D3. In larghissima parte SI', gli stessi fattori: le correlazioni con
+    gli indicatori sono quasi identiche per i due generi (PIL assoluto
+    r=0.58 F vs 0.61 M; PIL pro capite 0.35 vs 0.33; differenza massima
+    su tutti gli indicatori: 0.07). Gli indicatori spiegano invece POCO
+    la composizione di genere del medagliere (r max 0.28): cio' che
+    rende un medagliere "femminile" non e' catturato da queste
+    variabili.
+
+
+6. LIMITI E DOMANDE APERTE (dichiarati nel notebook)
+----------------------------------------------------------------------
+Limiti tecnici:
+  - il genere dell'evento e' ricavato dal NOME dell'evento (regex);
+  - gli eventi misti sono esclusi dalle quote;
+  - le medaglie di squadra contano una volta per squadra;
+  - correlazioni bivariate, nessun controllo incrociato tra variabili.
+
+Domande aperte (quello che i dati NON spiegano):
+  1. Perche' paesi socio-economicamente simili hanno quote femminili
+     molto diverse? Gli indicatori World Bank non misurano investimenti
+     nello sport femminile, politiche federali, fattori culturali.
+  2. Quanto pesa l'eredita' dei sistemi sportivi statali (URSS, DDR,
+     Cina)? La loro impronta e' visibile ma non spiegabile con
+     l'economia.
+  3. Quanta parte della crescita e' "meccanica"? Il numero di eventi
+     femminili lo decide il CIO: la quota puo' crescere senza che nei
+     paesi cambi nulla. Servirebbe normalizzare per eventi disponibili
+     per genere.
+  4. I boicottaggi (1980, 1984) e le squadre unificate distorcono
+     alcune edizioni.
+  5. Correlazione non e' causalita': il passo successivo naturale
+     sarebbe un modello multivariato con effetti fissi per paese.
+
+
+7. POSSIBILI DOMANDE D'ESAME E COME RISPONDERE
+----------------------------------------------------------------------
+Q: "Perche' log(1+medaglie) e non le medaglie?"
+R: La distribuzione e' fortemente asimmetrica: pochi paesi con
+   moltissime medaglie schiaccerebbero la correlazione di Pearson, che
+   e' sensibile agli outlier. Il log comprime la coda; il +1 gestisce
+   gli zeri (log(0) non e' definito).
+
+Q: "Perche' tenete i paesi con zero medaglie nel panel?"
+R: Per evitare il bias di selezione: correlare gli indicatori solo sui
+   vincitori significherebbe condizionare sull'esito. Il dataset
+   indicatori fa da base del merge proprio per questo.
+
+Q: "Come avete gestito le medaglie di squadra?"
+R: Deduplica: una medaglia per anno+paese+sport+evento+tipo. Verificato
+   contro il medagliere ufficiale del dataset indicatori: r=0.987,
+   scarto medio 0.92 medaglie.
+
+Q: "Come distinguete eventi maschili e femminili?"
+R: Dal nome dell'evento (regex su 'Women'/'Men'); i misti restano
+   categoria separata ed esclusi dalle quote. Controllo di qualita': la
+   crosstab genere-evento x sesso-atleta mostra coerenza quasi perfetta.
+
+Q: "Perche' il PIL assoluto correla piu' del PIL pro capite?"
+R: Le medaglie premiano la SCALA del sistema sportivo (bacino di
+   atleti, risorse totali), non il benessere medio: un paese enorme a
+   reddito medio (Cina) vince piu' di un paese ricchissimo ma piccolo.
+
+Q: "Quindi lo sviluppo economico spiega il successo femminile?"
+R: Spiega il VOLUME (quanto un paese vince, per entrambi i generi, con
+   correlazioni quasi identiche), ma spiega poco la COMPOSIZIONE (quota
+   femminile, r max 0.28). Le differenze di composizione rimandano a
+   politiche sportive e fattori culturali non presenti nel dataset - e
+   il notebook lo dichiara esplicitamente tra le domande aperte.
+
+Q: "Perche' nel 1964 la quota di medaglie femminili (21%) era superiore
+   alla quota di partecipanti (13%)?"
+R: Le medaglie dipendono dagli eventi in programma, non dagli atleti
+   iscritti: il programma femminile era piccolo ma le delegazioni
+   femminili erano ancora piu' piccole e concentrate in pochi paesi
+   forti, quindi il rapporto medaglie/partecipanti era alto. Lo si vede
+   anche nel grafico della resa (14 vs 7,9 medaglie per 100 atleti nel
+   1964).
+
+Q: "Che periodo avete scelto e perche'?"
+R: 1964-2020, solo Giochi estivi: e' l'intervallo coperto dal dataset
+   degli indicatori (15 edizioni) ed e' abbastanza lungo da mostrare la
+   transizione. Per i confronti fini (regressioni per genere) uso
+   2000-2020, quando il programma femminile e' ampio e comparabile.
+
+Q: "Perche' Altair?"
+R: Grammatica dichiarativa (encoding di dati su canali visivi),
+   interattivita' (tooltip, zoom) e export in JSON Vega-Lite, che il
+   sito Jekyll del progetto puo' incorporare direttamente con il tag
+   vegachart (cartella charts_definitivo).
